@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   scope '/api' do
     scope '/v1' do
-      resources :recrutees do
-        resources :timelines, only: [:index] do
-          resources :timeline_items, only: [:index, :create]
+      resources :recrutee do
+        resources :timeline, only: [:index] do
+          resources :timeline_item, only: [:create]
         end
       end
     end

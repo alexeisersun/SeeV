@@ -2,5 +2,5 @@ class Timeline
   include Mongoid::Document
   embedded_in :recrutee
   field :created_at, type: DateTime
-  embeds_many :items, type: TimelineItem
+  embeds_many :timeline_items
 end
