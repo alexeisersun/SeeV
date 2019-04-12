@@ -1,3 +1,4 @@
 class InterviewMeeting < TimelineItem
-  field :
+  field :date_time, type: DateTime
+  field :location_url, type: String
 end

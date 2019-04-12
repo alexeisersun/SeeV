@@ -1,3 +1,3 @@
 class StatusUpdate < TimelineItem
-  include Mongoid::Document
+  field :text, type: String
 end
