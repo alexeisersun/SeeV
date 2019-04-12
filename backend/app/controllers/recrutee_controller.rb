@@ -17,7 +17,7 @@ class RecruteeController < ApplicationController
   def create
     recrutee = Recrutee.new(recrutee_params)
     recrutee.save!
-    timeline = Timeline.create!(
+    @timeline = Timeline.create!(
       recrutee: recrutee,
       created_at: Time.now,
       timeline_items: nil
