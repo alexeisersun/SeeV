@@ -80,7 +80,7 @@ class DateRange extends React.Component {
           showTime
           format="YYYY-MM-DD HH:mm:ss"
           value={startValue}
-          placeholder="Date"
+          placeholder="Select date"
           onChange={this.onStartChange}
           onOpenChange={this.handleStartOpenChange}
         />
@@ -233,8 +233,8 @@ ReactDOM.render(
      <Title level={2}>Junior Software Developer</Title>
     
   <Steps direction="vertical" current={5} status="error">
-    <Step title="CV was received" description="This is a description." />
-    <Step title="CV was reviewed" description="This is a description." />
+    <Step title="CV was received" description="John Doe received your CV." />
+    <Step title="CV was reviewed" description="John Doe viewed your CV." />
     <Step title="Upload profile picture" description=<div style={{padding : "10px"}}> 
     <Avatar/>
     </div>/>
