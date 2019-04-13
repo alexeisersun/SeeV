@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  created_at: 
+  status_update: 
+  interview: 
+
+two:
+  created_at: 
+  status_update: 
+  interview: 
